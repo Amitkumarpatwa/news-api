@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modern News App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1>📰 DailyNews</h1>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search latest news...">
+            <button onclick="searchNews()">Search</button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h2>Stay Updated with Trending News</h2>
+        <p>Get real-time news from around the world.</p>
+    </section>
+
+    <div id="loader" class="loader hidden"></div>
+
+    <div id="newsContainer" class="news-grid"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
